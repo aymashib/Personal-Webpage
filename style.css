@@ -5,10 +5,12 @@
     background-color: #F5FFFA;
     position: flex;
     margin: 0%;
-    text-align: center;
-    
-    
-    
+}
+.perlogo{
+  top: 5%;
+  width: 100px;
+  height: 60px;
+  position: block;
 }
 body{
    align-items: center;
@@ -16,7 +18,13 @@ body{
 .div1{
     position: relative;
     top: 150px;
+    text-align: center;
+
 }
+.btn{
+  text-align: center;
+}
+
 #line1{
     font-family: 'Amatic SC', cursive;
     font-family: 'Luckiest Guy', cursive;
@@ -32,7 +40,11 @@ body{
     font-weight:1000;
     font-size: 60px;
     color: black;
+    transform: all 0.3s ease 0s;
     
+}
+#line2:hover{
+  color: red;
 }
 #line3{
     font-family: 'Amatic SC', cursive;
@@ -44,7 +56,6 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
-/* From uiverse.io by @Cornerstone-04 */
 .box {
     width: 140px;
     height: auto;
@@ -117,5 +128,5 @@ body{
   
 .network-line{
     position: relative;
-    top: 500px;
+    top: 600px;
 }
